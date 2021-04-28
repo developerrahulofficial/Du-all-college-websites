@@ -22,14 +22,14 @@ for i in range(1,27):
             break
 
 
-# print(colleges_name)
-# print(their_websites)
-# print("this is the length of college name :",len(colleges_name))
-# print("this is the length of websites :",len(their_websites))
-#
-#
-# import pandas as pd
-#
-# percentile_list = pd.DataFrame({'College Names': colleges_name,
-#      'Websites': their_websites
-#     }).to_excel("Details_ip.xlsx",index=False)
+print(colleges_name)
+print(their_websites)
+print("this is the length of college name :",len(colleges_name))
+print("this is the length of websites :",len(their_websites))
+
+
+import pandas as pd
+
+percentile_list = pd.DataFrame({'College Names': colleges_name,
+     'Websites': their_websites
+    }).to_excel("Details.xlsx",index=False)
